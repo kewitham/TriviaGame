@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="assets/javascript/app.js"></script>
+	
+	<title>Trivial Trivia</title>
+</head>
+<body background-color="pink" onload="initializeGame();">
+	<div class="container">
+		<div class="col-md-2">
+			<img src="assets/images/palmtree.jpg" height="900px" width="200px">
+		</div>
+		<div class="col-md-1">
+		</div>
+		<div class="col-md-6">
+			<h1 align="center"><font color="#F660AB">Totally Trivial Trivia!</font></h1>
+			<div id="page2">
+			<div align="center" id="viewTimer"></div>
+			<h3>The City of Los Angeles covers approximately how many square miles?</h3>
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="wrong" onclick="numberIncorrect(this)">100</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="right" onclick="numberCorrect(this)">500</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="wrong" onclick="numberIncorrect(this)">1000</button>
+				  </div>
+				</div>
+			<h3>Which of these is NOT an incorporated city surrounded by the City of Los Angeles?</h3>
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="right" onclick="numberCorrect(this)">Hollywood</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="wrong" onclick="numberIncorrect(this)">West Hollywood</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="wrong" onclick="numberIncorrect(this)">Beverly Hills</button>
+				  </div>
+				</div>
+			<h3>What valley are the valley girls from?</h3>
+				<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="wrong" onclick="numberIncorrect(this)">Pomona</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="right" onclick="numberCorrect(this)">San Fernando</button>
+				  </div>
+				  <div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" class="wrong" onclick="numberIncorrect(this)">Crescenta</button>
+				  </div>
+				</div>
+				<div>
+					<button type="button" class="btn btn-success" id="doneButton" onclick="loadIndex3();">Done</button>
+				</div>
+		</div>
+		</div>
+		<div class="col-md-2">
+			<img src="assets/images/palmtree.jpg" height="900px" width="200px">
+		</div>
+	</div>
+</body>
+</html>
