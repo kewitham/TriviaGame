@@ -1,0 +1,29 @@
+#doneButton{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: slategrey;
+	border-color: slategrey;
+}
+
+div.jumbotron{
+background: url('../images/la.jpg') no-repeat center center;
+}
+
+h1.display-3{
+	color:white;
+	margin-left: 15px;
+}
+
+p.lead{
+	color:white;
+	margin-left: 15px;
+}
+
+.col-md-10{
+	border-color: #ccc;
+    border: 1px solid;
+    border-radius: 4px;
+}
+body{
+	background-color: ghostwhite;
+}
